@@ -19,7 +19,7 @@ ip = args.ip
 port = 554
 
 def write(str, path):
-    print("[CityHacker by Ko4Kin] ============= взломано, " + str + "")
+    print("[CityHacker by SibHckr] ============= взломано, " + str + "")
     kekef = open(path, "a+")
     kekef.write(str + "\n")
     kekef.close()
@@ -57,7 +57,7 @@ def b64Passwords():
                 #print("Base64 encoded password: "+passwF+"\nPassword: "+str(passwFDecoded)+"\r\n")
                 exit()
             else:
-                #print("[CityHacker by Ko4Kin] Error (unreachable host or timedout)")
+                #print("[CityHacker by SibHckr] Error (unreachable host or timedout)")
                 exit()
         request()
 b64Passwords()
