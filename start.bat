@@ -1,0 +1,2 @@
+python blagoveshchensk.py
+pause
